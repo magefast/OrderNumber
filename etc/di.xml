@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config>
+    <type name="Magento\SalesSequence\Model\ResourceModel\Profile">
+        <plugin name="site-order-number-prefix" type="Magefast\OrderNumber\Plugin\PluginSitePrefix" sortOrder="1" disabled="false"/>
+    </type>
+</config>

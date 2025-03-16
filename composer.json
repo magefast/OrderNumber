@@ -1,0 +1,22 @@
+{
+  "name": "magefast/module-order-number",
+  "minimum-stability": "dev",
+  "description": "Magento extension - Custom OrderNumber, set custom Order Id for New Magento Order.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "magefast",
+      "email": "magefast@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Magefast\\OrderNumber\\": ""
+    }
+  }
+}
